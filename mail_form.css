@@ -301,12 +301,6 @@ span{
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 600px) {
-    .Form {
-        margin-top: 0px;
-    }
-}
-
 .Form-Item {
     /*左右の余白調整*/
     width: 90%;

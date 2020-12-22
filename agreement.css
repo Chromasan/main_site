@@ -5,7 +5,6 @@
 /*並べ方は、ここを参照*/
 /*https://qiita.com/katsunory/items/99a417f4e1a763477a09*/
 
-
 header{
   font-family: 'Noto Serif JP', serif;
 }
@@ -51,19 +50,19 @@ h1{
   font-size: 22px;
 }
 
-.article p{
+p{
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.article h2 {
+h2 {
   font-size: 18px;
   margin-left: 5%;
   padding: 0.5rem 0.5rem;
   border-left: 4px solid #c12127;
 }
 
-.article h3 {
+h3 {
   font-size: 17px;
   margin-left: 10%;
   margin-right: 10%;

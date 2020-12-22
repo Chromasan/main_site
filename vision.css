@@ -4,7 +4,6 @@
 /*並べ方は、ここを参照*/
 /*https://qiita.com/katsunory/items/99a417f4e1a763477a09*/
 
-
 header{
   font-family: 'Noto Serif JP', serif;
 }
@@ -46,24 +45,14 @@ span{
   padding-bottom: 10px;
 }
 
-.article h1 {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-size: 22px;
-}
-
-.article p{
+p{
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.article h2 {
-  font-size: 18px;
-}
 
 h2 {
+  font-size: 18px;
     position: relative;
     /*相対位置*/
     line-height: 1.4;
@@ -96,19 +85,6 @@ h2:after {
 .sub_title{
   /*article自体でcenterを指定しているので、ここは重複している*/
   text-align: center;
-}
-
-
-
-
-
-
-.article h3 {
-  font-size: 17px;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-bottom: 3px dotted #e5e5e5;
-  width: auto;
 }
 
 .date p{
