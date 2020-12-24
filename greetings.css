@@ -50,7 +50,7 @@ a:active {
     text-align: center;
     color: #fefefe;
     border-radius: 50%;
-    background: #000;
+    background: #2b2a54;
     flex: none;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -183,7 +183,7 @@ a:active {
     cursor: pointer;
     transition: box-shadow 0.2s ease;
     border-radius: 0 0.12em 0.12em 0;
-    background: #000;
+    background: #2b2a54;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -249,7 +249,7 @@ header{
 
 body{
   font-family: 'Noto Serif JP', serif;
-  background: #2a333c;
+  background: #a4d0fb;
   /*背景色が途切れない対策*/
   /*https://qastack.jp/programming/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats*/
   height: auto;
@@ -268,7 +268,10 @@ body{
 }
 
 h1{
-  color:#fff;
+  color:#000;
+  font-size: 20px;
+  height: 60px ;
+	line-height: 60px ;
   margin:0px;
   padding: 0px;
 }
@@ -286,50 +289,33 @@ span{
 .article p{
   padding-left: 5%;
   padding-right: 5%;
+  overflow-wrap: break-word;
+　　　word-wrap: break-word;
 }
 
-.author{
-  margin-left: 5%;
-  margin-right: 5%;
-  background: #E6E6E6;
-}
-
-.author p{
-  padding: 0px;
-}
-
-.profile{
-  width: 70%;
-  display: inline-block;
-  vertical-align: top;
+.top{
+  display:block;
   text-align: center;
+  height: auto;
+}
+
+.sub{
+  text-align: right;
 }
 
 .picture{
-  width: 29.4%;
-  display: inline-block;
-  vertical-align: top;
+  text-align: center;
 }
 
-.author img{
+.picture img{
   border-radius: 50%;
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
 }
 
 
-/* 画面サイズの横幅が 768px より小さい場合に適用 */
-@media screen and (max-width: 1000px) {
-  .profile {
-    display: block;
-		width:100%;
-  }
-  .picture{
-    text-align: center;
-    display: block;
-    width: 100%;
-  }
-  .author img{
-    border-radius: 50%;
-    width: 15%;
-  }
-}
+/* 画面サイズの横幅が小さい場合に適用 */
+/*@media screen and (max-width: 1000px) {
+
+}*/

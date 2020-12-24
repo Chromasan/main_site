@@ -11,7 +11,7 @@ header{
 
 body{
   font-family: 'Noto Serif JP', serif;
-  background: #2a333c;
+  background: #a4d0fb;
   /*background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);*/
   /*背景色が途切れない対策*/
   /*https://qastack.jp/programming/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats*/
@@ -31,9 +31,12 @@ body{
 }
 
 h1{
+  color:#000;
+  font-size: 20px;
+  height: 60px ;
+	line-height: 60px ;
   margin:0px;
   padding: 0px;
-  color:#fff;
 }
 
 
@@ -147,7 +150,7 @@ a:active {
     text-align: center;
     color: #fefefe;
     border-radius: 50%;
-    background: #000;
+    background: #2b2a54;
     flex: none;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -280,7 +283,7 @@ a:active {
     cursor: pointer;
     transition: box-shadow 0.2s ease;
     border-radius: 0 0.12em 0.12em 0;
-    background: #000;
+    background: #2b2a54;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
