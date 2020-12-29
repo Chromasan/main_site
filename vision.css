@@ -1,3 +1,28 @@
+/*参照先：https://incloop.com/スマホとパソコンで改行の位置を変える方法/*/
+@media screen and (min-width: 1200px){
+  .br-pc { display:block; }
+  .br-sp { display:none; }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:800px){
+  .br-pc { display:none; }
+  .br-sp { display:none; }
+}
+
+
+
+@media screen and (max-width: 800px){
+  .br-pc { display:none; }
+  .br-sp { display:block; }
+  .article{
+    text-align: center;
+  }
+}
+
+
+
+
 .article{
   background: #fff;
 }

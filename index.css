@@ -404,7 +404,6 @@ body {
 .split {
     display: table;
     width: 100%;
-    height: auto;
 }
 
 .split-item {
