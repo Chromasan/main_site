@@ -321,10 +321,6 @@ span {
 
 /*画面全体の設定*/
 body {
-    /*background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);*/
-    /*background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);*/
-    /*background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);*/
-    /*background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);*/
     background: #ffffff;
 }
 
@@ -417,8 +413,10 @@ body {
     text-align: center;
     color: #2b2a54;
     position: relative;
-    /*スマホ画面の場合の縦の長さはこれで調整される*/
-    height: auto;
+    /*macのsafariで隙間ができないよう、調整。よって画面サイズによってheightの調整が必要*/
+    /*height: auto;*/
+    /*参照先：http://weboook.blog22.fc2.com/blog-entry-411.html*/
+    height: 100vh;
     width: 30%;
     background: #a4d0fb;
 }
@@ -464,6 +462,9 @@ body {
       padding-top: 0px;
       margin-bottom: 0px;
       padding-bottom: 0px;
+    }
+    .split-left {
+      height: auto;
     }
 }
 
