@@ -1,6 +1,6 @@
 /*参照先：https://incloop.com/スマホとパソコンで改行の位置を変える方法/*/
 @media screen and (min-width: 1200px){
-  .br-pc { display:block; }
+  .br-pc { display:none; }
   .br-sp { display:none; }
 }
 
@@ -14,9 +14,9 @@
 
 @media screen and (max-width: 800px){
   .br-pc { display:none; }
-  .br-sp { display:block; }
+  .br-sp { display:none; }
   .article{
-    text-align: center;
+    /*text-align: center;*/
   }
 }
 
@@ -69,7 +69,7 @@ span{
 }
 
 .article{
-  text-align: center;
+  /*text-align: center;*/
   padding-top: 10px;
   padding-bottom: 10px;
 }
